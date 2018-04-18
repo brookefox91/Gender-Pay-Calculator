@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Gender Pay Calculator</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+
+
+<form id = "quiz" name = "quiz">
+<h2>Gender Pay Gap Calculator</h2>
+
+<p class = "questions">Are you a man or a woman?</p>
+<input type = "radio" id = "question1" name = "question1" value = "Man">   Man<br>
+<input type = "radio" id = "question1" name = "question1" value = "Woman"> Woman<br>
+<br>
+
+<p class = "questions">Where do you work?</p>
+  <select name = "question2" id = "question2">
+    <option value="Allianz Global Investors">Allianz Global Investors</option>
+    <option value="Aviva Investors">Aviva Investors</option>
+    <option value="AXA Investment Managers">AXA Investment Managers</option>
+	<option value="Baillie Gifford">Baillie Gifford</option>
+    <option value="Baring Asset Management">Baring Asset Management</option>
+	<option value="BlackRock">BlackRock</option>
+	<option value="Bluebay Asset Management">Bluebay Asset Management</option>
+	<option value="Columbia Threadneedle Investments">Columbia Threadneedle Investments</option>
+    <option value="F and C Asset Management">F and C Asset Management</option>
+    <option value="Fidelity International">Fidelity International</option>
+    <option value="First State Investments">First State Investments</option>
+	<option value="Franklin Templeton Global Investors">Franklin Templeton Global Investors</option>
+	<option value="Hermes Fund Managers">Hermes Fund Managers</option>
+	<option value="HSBC Global Asset Management">HSBC Global Asset Management</option>
+	<option value="Insight Investment">Insight Investment</option>
+    <option value="Invesco">Invesco</option>
+    <option value="Investec Asset Management">Investec Asset Management</option>
+    <option value="Janus Henderson">Janus Henderson</option>
+	<option value="Jupiter Asset Management">Jupiter Asset Management</option>
+	<option value="JPMorgan Asset Management">JPMorgan Asset Management</option>
+	<option value="Legal and General Investment Management">Legal and General Investment Management</option>
+    <option value="Man Group">Man Group</option>
+    <option value="Newton Investment Management">Newton Investment Management</option>
+    <option value="Northern Trust">Northern Trust</option>
+	<option value="Old Mutual Global Investors">Old Mutual Global Investors</option>
+	<option value="Pictet Asset Management">Pictet Asset Management</option>
+	<option value="Pimco">Pimco</option>
+	<option value="Schroders">Schroders</option>
+	<option value="SEI Investments">SEI Investments</option>
+	<option value="SLA Aberdeen Asset Management">SLA Aberdeen Asset Management</option>
+    <option value="SLA Standard Life">SLA Standard Life</option>
+    <option value="State Street Global Advisors">State Street Global Advisors</option>
+    <option value="T Rowe Price">T Rowe Price</option>
+	<option value="Vanguard">Vanguard</option>
+	<option value="Wellington Management International">Wellington Management International</option>
+	<option value="Winton Group">Winton Group</option>
+	<option value="other asset manager">other asset manager</option>
+  </select>
+  <br><br>
+  <br>
+
+<p class = "questions">What is your approximate salary?</p>
+<input id = "numb" type="number" name = "question3" id = "question3">
+
+<br><br>
+<input id = "button" type = "button" value = "Get Salary" onclick = "check();">
+
+<p id = "message"></p>
+
+
+</form>
+
+
+</html>
+
+</body>
