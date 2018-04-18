@@ -170,9 +170,9 @@ function check(){
 	
 	
 	if (question1 == "Man") {
-		document.getElementById("message").innerHTML = "You would make $" + salary + " if you were a woman at " + question2 + " in the US*.";
+		document.getElementById("message").innerHTML = "Your salary would be $" + salary + " after adjusting for what women make overall at " + question2 + " in the US*.";
 	}
 	if (question1 == "Woman") {
-		document.getElementById("message").innerHTML = "You would make $" + salary + " if you were a man at " + question2 + " in the US*.";
+		document.getElementById("message").innerHTML = "Your salary would be $" + salary + " after adjusting for what men make overall at " + question2 + " in the US*.";
 	}
 }
