@@ -166,13 +166,11 @@ function check(){
 	if (question1 == "Woman") {
 		salary += question3 * (gender + multiplier);
 	}
-
-	
-	
+		
 	if (question1 == "Man") {
-		document.getElementById("message").innerHTML = "Your salary would be $" + salary + " after adjusting for what women make overall at " + question2 + " in the US*.";
+		document.getElementById("message").innerHTML = "After adjusting for the overall gender pay gap at " + question2 + ", if you were a woman your salary would likely be $" + salary + "  in the US*.";
 	}
 	if (question1 == "Woman") {
-		document.getElementById("message").innerHTML = "Your salary would be $" + salary + " after adjusting for what men make overall at " + question2 + " in the US*.";
+		document.getElementById("message").innerHTML = "After adjusting for the overall gender pay gap at " + question2 + ", if you were a man your salary would likely be $" + salary + "  in the US*.";
 	}
 }
